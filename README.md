@@ -627,6 +627,7 @@
   - Containerization is the most efficient of any of the options listed, but it doesn’t allow each VM to have its own OS since all containers share the same host OS.
 #### VM sprawl avoidance
 #### VM escape protection
+* If one virtual machine is compromised, the negative effects can be compartmentalized and not spread to the other virtual machines on the same server. The keyword here is “can”. Virtual machines on the same server can be compromised if the attacker performs a VM escape, or if the other virtual machines have the same type of vulnerability. Virtual machines can be hacked, just like physical servers. Each virtual machine has its own operating system and therefore must be patched.
 #### Cloud storage
 #### Cloud deployment models:
 * SaaS

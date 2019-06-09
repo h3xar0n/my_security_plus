@@ -277,6 +277,10 @@
 * `tcpdump`
 * `nmap`
 * `netcat`
+* `chroot`
+  - Could be used to isolate an application within a sandbox on a Linux system.
+* `chmod`
+  - Used to change permissions on a Linux system.
 
 ### 2.3 Given a scenario, troubleshoot common security issues. 
 

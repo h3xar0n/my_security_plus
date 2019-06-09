@@ -744,6 +744,7 @@
 * Usage auditing and review
 * Time-of-day restrictions
 * Recertification
+  - The most important principle in managing account permissions is the account recertification. Periodically, this process verifies that permissions still need to be granted.
 * Standard naming convention
 * Account maintenance
 * Group-based access control

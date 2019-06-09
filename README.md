@@ -503,6 +503,7 @@
 ### 3.5 Explain the security implications of embedded systems. 
 
 #### SCADA/ICS
+* Generators controlled within a SCADA system can be isolated within a VLAN to protect them from unauthorized access. 
 #### Smart devices/IoT:
 * Wearable technology
 * Home automation

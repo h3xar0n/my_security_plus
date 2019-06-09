@@ -952,6 +952,7 @@
   - Groups
   - DHE
   - ECDHE
+    * Allows entities to negotiate encryption keys securely over a public network. 
 * Elliptic curve
 * PGP/GPG
 #### Hashing algorithms:
@@ -995,6 +996,8 @@
 * CA
 * Intermediate CA
 * CRL
+  - Identifies revoked certificates
+  - Unrelated to sharing encryption keys
 * OCSP
 * CSR
 * Certificate

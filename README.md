@@ -599,8 +599,13 @@
 #### Cloud storage
 #### Cloud deployment models:
 * SaaS
+  - Software as a Service is an application
 * PaaS
+  - Platform as a Service provides consumers with the infrastructure for hosted applications.
 * IaaS
+  - Infrastructure as a Service is a _network_ infrastructure
+* CaaS
+  - Cloud as a Service is cloud storage.
 * Private
 * Public
 * Hybrid

@@ -246,6 +246,7 @@
 #### SIEM:
 * Aggregation
 * Correlation
+  - Correlating events from servers would be the most important issue to address in the case of an incident with multiple servers.
 * Automated alerting and triggers
 * Time synchronization
 * Event deduplication

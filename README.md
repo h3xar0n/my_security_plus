@@ -330,6 +330,9 @@
 #### Removable media control
 #### Advanced malware tools
 #### Patch management tools
+* Patch management software will help roll out patches onto the network. 
+* Automatic updates shouldn’t be used on corporate networks if they will interfere with productivity and network consistency, so patch management is a better solution. 
+* Scanning all machines for patches every day will slow down production, whereas patch management is more optimized.
 #### UTM
 #### DLP
 #### Data execution prevention

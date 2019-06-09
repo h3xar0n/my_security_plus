@@ -343,6 +343,9 @@
 #### Antivirus
 #### File integrity check
 #### Host-based firewall
+* The program iptables is used to configure the firewall on Linux servers. 
+* Windows Firewall is only available on Windows servers and desktops. 
+* PF and IPFW are available on FreeBSD and OS X.
 #### Application whitelisting
 #### Removable media control
 #### Advanced malware tools

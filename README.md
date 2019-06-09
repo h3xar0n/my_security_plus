@@ -531,6 +531,7 @@
 * Production
 #### Secure baseline
 #### Integrity measurement
+* Kernel integrity system has a major benefit it provides in that it detects if files have been altered. It doesn’t detect malware, that’s the job of an antivirus software, and it doesn’t detect if rogue programs have been installed or if changes were made to user accounts.
 
 ### 3.5 Explain the security implications of embedded systems. 
 

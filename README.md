@@ -964,6 +964,7 @@
 #### Steganography
 #### Obfuscation
 #### Stream vs. block
+* Stream ciphers work similar to one-time pads. They provide the same protection as OTP. 
 #### Key strength
 #### Session keys
 #### Ephemeral key

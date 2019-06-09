@@ -972,6 +972,7 @@
 #### Weak/deprecated algorithms
 #### Key exchange
 #### Digital signatures
+* A digital signature is comprised of a hash digest of the original email that is then encrypted using the sender's private key. To verify the digital signature upon receipt, the receiver's email client will decrypt the signature file, hash the email itself, and compare the unencrypted signature file to the newly calculated hash. If they match, then the signature is considered authentic and the email is considered to have good integrity (it hasn't been changed in transit).
 #### Diffusion
 #### Confusion
 #### Collision

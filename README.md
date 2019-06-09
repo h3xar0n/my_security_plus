@@ -619,10 +619,12 @@
 
 #### Hypervisor:
 * Type I
+  - A Type I (bare metal) hypervisor allows each virtual machine (VM) to have its own operating system (OS) without requiring the underlying physical server to have a full OS like Windows, OS X, or Linux. A Type I hypervisor is more efficient than a Type II hypervisor because a Type II requires a full desktop or server OS to be installed on the server AND in each of the VMs. 
 * Type II
 * Application cells/containers
   - An application container isolates applications from the host operating system. 
   - Could be used to run a legacy application that may have vulnerabilities to prevent it from affecting the host and thus the rest of the network.
+  - Containerization is the most efficient of any of the options listed, but it doesn’t allow each VM to have its own OS since all containers share the same host OS.
 #### VM sprawl avoidance
 #### VM escape protection
 #### Cloud storage

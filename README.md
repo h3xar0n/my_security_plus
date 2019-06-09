@@ -530,6 +530,10 @@
   - Kiosk
   - Mobile OS
 * Patch management
+  1. Planning: Verify compatibility, testing, and deployment
+  2. Testing: Test a patch prior to automating for deployment. Have a test network or at least a single machine, or in the worst case, test on a single machine that is the least critical before installing a patch on others.
+  3. Implementing: Some use automated updates, but large orgs use central management system.
+  4. Auditing: Verify the client status after patch deployment to ensure it was successful.
 * Disabling unnecessary ports and services
   - Prevent unauthorized access by disabling unused physical ports on switches. This prevents the connection if someone plugs their computer into an unused port.
 * Least functionality

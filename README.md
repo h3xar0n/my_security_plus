@@ -621,6 +621,7 @@
 #### Biometrics
 #### Barricades/bollards
 #### Tokens/cards
+* A hardware security token creates a one-time use password by presenting the user with a random string of numbers that changes every 30-60 seconds. When used by itself, it is considered a one-time password authentication method. 
 #### Environmental controls:
 * HVAC
 * Hot and cold aisles

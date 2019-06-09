@@ -5,6 +5,7 @@
 * [4.0 Identity and Access Management](#40-identity-and-access-management)
 * [5.0 Risk Management](#50-risk-management)
 * [6.0 Cryptography and PKI](#60-cryptography-and-pki)
+* [Protocols and Ports](#protocols-and-ports)
 * [Acronyms](#acronyms)
 
 ## 1.0 Threats, Attacks and Vulnerabilities
@@ -1140,6 +1141,45 @@
 * CER
 * P12
 * P7B
+
+## Protocols and Ports
+
+| Protocol                                                               | Port                      |
+|------------------------------------------------------------------------|---------------------------|
+| File Transport Protocol (FTP)                                          | TCP 20, 21                |
+| Secure Shell (SSH)                                                     | TCP 22                    |
+| Secure File Transport Protocol (SFTP)                                  | TCP 22                    |
+| Secure Copy (SCP)                                                      | TCP 22                    |
+| Telnet                                                                 | TCP 23                    |
+| Simple Mail Transport Protocol (SMTP)                                  | TCP 25                    |
+| TACACS+                                                                | TCP 49                    |
+| Domain Name System (DNS)                                               | TCP/UDP 53                |
+| Dynamic Host Configuration Protocol (DHCP)                             | UDP 67, UDP 68            |
+| Trivial File Transport Protocol (TFTP)                                 | UDP 69                    |
+| Hypertext Transfer Protocol (HTTP)                                     | TCP 80                    |
+| Kerberos                                                               | TCP/UDP 88                |
+| Post Office Protocol version 3 (POP3)                                  | TCP 110                   |
+| Network News Transfer Protocol (NNTP)                                  | TCP 119                   |
+| Network Time Protocol (NTP)                                            | UDP 123                   |
+| NetBIOS                                                                | UDP 137, UDP 138, TCP 139 |
+| Internet message access protocol version 4 (IMAP4)                     | TCP 143                   |
+| Simple Network Management Protocol (SNMP)                              | UDP 161                   |
+| SNMP trap                                                              | TCP/UDP 162               |
+| Lightweight Directory Access Protocol (LDAP)                           | TCP/UDP 389               |
+| File Transport Protocol Secure (FTPS)                                  | TCP 443                   |
+| Hypertext Transfer Protocol Secure (HTTPS)                             | TCP 443                   |
+| Secure Sockets Layer virtual private network (SSL VPN)                 | TCP 443                   |
+| SMTP SSL/TLS                                                           | TCP 465                   |
+| Internet Security Association and Key Management Protocol (ISAKMP VPN) | UDP 500                   |
+| Syslog                                                                 | UDP 514                   |
+| LDAP TLS/SSL                                                           | TCP 636                   |
+| IMAP SSL/TLS                                                           | TCP 993                   |
+| POP SSL/TLS                                                            | TCP 995                   |
+| MS SQL Server                                                          | TCP 1433                  |
+| Layer 2 Tunneling Protocol (L2TP)                                      | UDP 1701                  |
+| Point-to-Point Tunneling Protocol (PPTP)                               | TCP/UDP 1723              |
+| Remote Desktop Protocol (RDP)                                          | TCP/UDP 3389              |
+| Terminal Access Controller Access-Control System (TACACS)              | UDP 49                    |
 
 ## Acronyms
 

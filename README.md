@@ -679,6 +679,7 @@
 ### 4.2 Given a scenario, install and configure identity and access services.
 
 #### LDAP
+* LDAP is considered a directory or a phonebook of your network and if you make LDAP unavailable then the footprint of your network is not as easily obtained. 
 #### Kerberos
 * Kerberos is a key distribution center (KDC) and provides keys with certain time limits. 
 * If the network time proctocol (NTP) is not working correctly, Kerberos will be affected. 

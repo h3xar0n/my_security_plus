@@ -409,6 +409,7 @@
 * Payment methods
 #### Deployment models:
 * BYOD
+  - With a BYOD policy, the employee is allowed to use their own device on the corporate network. This is a cheaper solution than a CYOD policy, since the company doesn’t have to furnish or pay for the device. Unfortunately, a BYOD policy is not good for security since the company has little control over the device and information can become comingled with an employee’s personal data on the device. Additionally, using a Mobile Device Management solution is more challenging with a BYOD policy, which can lead to difficulties in managing configurations and conducting any kind of patch management.
 * COPE
   - With company-owned devices, you can still use the device for personal use and save your personal information on this device, therefore, your personal and private data is being exposed to your company. By storing your personal data on a company-owned device, the employee is giving up some of their privacy.
 * CYOD

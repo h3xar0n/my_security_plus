@@ -873,6 +873,8 @@
 
 ### 5.6 Explain disaster recovery and continuity of operation concepts.
 
+#### BCP
+* A business continuity plan identifies critical systems and components that need to be protected. 
 #### Recovery sites:
 * Hot site
 * Warm site

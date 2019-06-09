@@ -266,6 +266,7 @@
 * Agent vs. agentless
 #### Mail gateway:
 * Spam filter
+  - Use whitelists and blacklists
 * DLP
 * Encryption
 #### Bridge
@@ -330,6 +331,11 @@
 #### License compliance violation (availability/integrity)
 #### Asset management
 #### Authentication issues
+#### Spam mitigation:
+* Mail gateways
+* To prevent email servers from being used to send spam, ensure they aren't configured as open mail relays or SMTP open relays.
+* Remove email addresses from company website
+* Train and educate users on where to submit emails
 
 ### 2.4 Given a scenario, analyze and interpret output from security technologies.
 

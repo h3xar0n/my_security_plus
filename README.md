@@ -848,7 +848,11 @@
 #### Order of restoration
 #### Backup concepts:
 * Differential
+  - A full/differential strategy is best with one full backup on one day and differential backups on other days.
+  - A restore would require only two backups, making it a quick option.
 * Incremental
+  - A full/incremental backup would typically require you to restore more than two backups, e.g. one full backup plus _x_ incremental backups for the number of days since the last full backup.
+  - The incremental backup itself takes the shortest time.
 * Snapshots
 * Full
 #### Geographic considerations:

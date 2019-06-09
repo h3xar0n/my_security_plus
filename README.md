@@ -664,6 +664,7 @@
 #### Federation
 #### Single sign-on
 #### Transitive trust
+* The most significant disadvantage of federated identities is transitive trust. The security of federated identities is impacted by the security of others. 
 
 ### 4.2 Given a scenario, install and configure identity and access services.
 

@@ -461,7 +461,12 @@
 #### Hardware/firmware security:
 * FDE/SED
 * TPM
+  - Trusted Platform Module
+  - Provides full drive encryption.
+  - Included in many laptops.
 * HSM
+  - Hardware Security Module
+  - A removable device that can generate and store RSA keys used with servers for data encryption.
 * UEFI/BIOS
 * Secure boot and attestation
 * Supply chain

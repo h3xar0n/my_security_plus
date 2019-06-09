@@ -990,20 +990,30 @@
 * WPA
 * WPA2
 * CCMP
+  - Counter Mode Cipher Block Chaining Message Authentication
+  - Strong, but uses PSK, i.e. no usernames.
 * TKIP
 #### Authentication protocols:
 * EAP
 * PEAP
 * EAP-FAST
+  - A lightweight version of EAP.
+  - Is not used with WPS.
 * EAP-TLS
 * EAP-TTLS
+  - Encrypts user credentials when users enter their usernames and passwords.
+  - Implemented in Enterprise mode and uses an 802.1x server.
 * IEEE 802.1x
   - An 802.1x server provides port-based authentication and can authenticate clients. 
   - In a situation where there is an internal network reserved for employees, clients that cannot authenticate can be redirected to a guest network that has Internet access, but not internal network access.
 * RADIUS Federation
 #### Methods:
 * PSK vs. Enterprise vs. Open
+  - PSK does not authenticate users based on their usernames.
 * WPS
+  - Wi-Fi Protected Setup
+  - A standard designed to simplify the setup of a wireless network.
+  - Does not implement usernames.
 * Captive portals
 
 ### 6.4 Given a scenario, implement public key infrastructure.

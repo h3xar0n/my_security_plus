@@ -192,6 +192,7 @@
   - Transport mode
   - AH
   - ESP
+  - Functions without a dependency of time synchronization, so would be unaffected by NTP breaking.
 * Split tunnel vs. full tunnel
 * TLS
   - Also used to encrypt mail traffic on protocols such as SMTP (SMTPS).
@@ -382,6 +383,7 @@
 
 #### Protocols:
 * DNSSEC
+  - Functions without a dependency of time synchronization, so would be unaffected by NTP breaking.
 * SSH
   - Port 22
   - Operates over TCP
@@ -660,11 +662,14 @@
 
 #### LDAP
 #### Kerberos
+* Kerberos is a key distribution center (KDC) and provides keys with certain time limits. 
+* If the network time proctocol (NTP) is not working correctly, Kerberos will be affected. 
 #### TACACS+
 #### CHAP
 #### PAP
 #### MSCHAP
 #### RADIUS
+* Functions without a dependency of time synchronization, so would be unaffected by NTP breaking.
 #### SAML
 #### OpenID Connect
 #### OAUTH
@@ -833,7 +838,6 @@
 #### Order of volatility
 * Should [capture system image](#data-acquisition) before analysis.
 * Example case:
- 
   1. The **Processor Cache** is the most volatile and changes the most frequently.
   2. **Random Access Memory (RAM)** is temporary storage in a computer, can quickly change or overwritten, and the information stored in RAM is lost when power is removed from the computer.
   3. **Swap files** are temporary files on a hard disk that are used as virtual memory.
@@ -1269,7 +1273,7 @@
 | NIST    | National Institute of Standards & Technology                               |
 | NTFS    | New Technology File System                                                 |
 | NTLM    | New Technology LAN Manager                                                 |
-| NTP     | Network Time Protocol                                                      |
+| the Network Time Proctocol (   )  | Network Time Protocol                                                      |
 | OAUTH   | Open Authorization                                                         |
 | OCSP    | Online Certificate Status Protocol                                         |
 | OID     | Object Identifier                                                          |

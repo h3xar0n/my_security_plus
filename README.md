@@ -1092,6 +1092,10 @@
 * EAP-FAST
   - A lightweight version of EAP.
   - Is not used with WPS.
+  - EAP-FAST exists in situations where password policy cannot be enforced. The three phases it consists of are:
+    1. provisioning
+    2. establishment of a tunnel 
+    3. authentication. 
 * EAP-TLS
 * EAP-TTLS
   - Encrypts user credentials when users enter their usernames and passwords.

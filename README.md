@@ -905,6 +905,7 @@
 #### Corrective
 #### Compensating
 #### Technical
+* Also called logical controls
 #### Administrative
 #### Physical
 

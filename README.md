@@ -608,6 +608,7 @@
 * Configuration validation
 #### Templates
 #### Master image
+* An image for workstations is great for their original configurations, but it won’t assist with keeping patches up to date or preventing software from being installed. 
 #### Non-persistence:
 * Snapshots
 * Revert to known state

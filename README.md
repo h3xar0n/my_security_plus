@@ -176,6 +176,8 @@
   - A stateful firewall filters traffic based on the state of a packet within a session.
   - A stateless firewall filters traffic using an ACL.
 * Implicit deny
+  - Placed at the end of an ACL to on a _router_ to deny traffic that hasn't been explicitly allowed.
+  - Doesn't affect physical ports differently, so [disabling unused ports](#operating-systems) is still important.
 #### VPN concentrator:
 * Remote access vs. site-to-site
 * IPSec:
@@ -475,6 +477,7 @@
   - Mobile OS
 * Patch management
 * Disabling unnecessary ports and services
+  - Prevent unauthorized access by disabling unused physical ports on switches. This prevents the connection if someone plugs their computer into an unused port.
 * Least functionality
 * Secure configurations
 * Trusted operating system

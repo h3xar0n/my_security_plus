@@ -788,6 +788,11 @@
 * Continuing education
 * Acceptable use policy/rules of behavior
 * Adverse actions
+  - Actions that are placed against employees when a wrongdoing has been found. 
+  - Examples:
+    * Placing someone on leave (other than "mandatory vacation")
+    * Changing their computer account to suspended
+    * Taking their prox card and building keys
 #### General security policies:
 * Social media networks/applications
 * Personal email

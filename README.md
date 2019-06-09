@@ -544,7 +544,7 @@
 * Proper input validation
 * Normalization
 * Stored procedures
-  - an effective method of preventing [SQL injection attacks](#application/service-attacks)
+  - an effective method of preventing [SQL injection attacks](#applicationservice-attacks)
 * Code signing
 * Encryption
 * Obfuscation/camouflage

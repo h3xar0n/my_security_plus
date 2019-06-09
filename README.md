@@ -795,6 +795,8 @@
 * Finance
 * Reputation
 #### Privacy impact assessment
+* PIA
+* Measurement of the private information that belongs to the company while in the possession of a PII. 
 #### Privacy threshold assessment
 
 ### 5.3 Explain risk management processes and concepts.

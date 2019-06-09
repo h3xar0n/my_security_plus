@@ -952,8 +952,11 @@
 * Pulverizing
 * Degaussing
 * Purging
+  - Purging removes data from hard drives that cannot be rebuilt, but keeps the hard drive intact. 
 * Wiping
   - DoD standard 5220.22-M recommends 7 wipes to completely wipe data.
+* Formatting
+  - Formatting leaves traces of data that can be rebuilt.
 #### Data sensitivity labeling and handling:
 * Confidential
 * Private

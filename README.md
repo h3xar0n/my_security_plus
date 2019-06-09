@@ -755,7 +755,7 @@
 * Password complexity
 * Expiration
 * Recovery
-  - In case an account is deleted, a recovery agent can be used to decrypt files associated with the account.
+  - In case an account is deleted, a recovery agent (RA) can be used to decrypt files associated with the account.
 * Disablement
   - If an employee is terminated, their account should be disabled (rather than deleted) during the exit interview so that user security keys (cryptographic keys) are retained. These keys can encrypt and decrypt files, and if the keys are deleted (i.e. with the user account), it might not be possible to access files that the user encrypted.
 * Lockout

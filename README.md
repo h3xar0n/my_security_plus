@@ -998,6 +998,7 @@
 * AES
 * DES
 * 3DES
+  - Adds strength by repeating the encryption process with addtional keys. 
 * RC4
 * Blowfish/Twofish
 #### Cipher modes:

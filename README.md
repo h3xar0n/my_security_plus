@@ -234,6 +234,7 @@
 * Active-passive
 * Active-active
 * Virtual IPs
+  - Virtual IP load-balancing doesn’t take a load of each interface and assumes all loads are similar, so it is connection-based, not load-based.
 #### Access point:
 * SSID
 * MAC filtering

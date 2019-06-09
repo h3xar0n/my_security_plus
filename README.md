@@ -450,7 +450,7 @@
 * VPN concentrators
 * SSL accelerators
 * Load balancers
-- A WAF (web application firewall) can provide loadbalancing, but stateful and stateless firewalls can.
+  - A WAF (web application firewall) can provide loadbalancing, but stateful and stateless firewalls can.
 * DDoS mitigator
 * Aggregation switches
 * Taps and port mirror

@@ -824,6 +824,12 @@
 
 #### Order of volatility
 * Should [capture system image](#data-acquisition) before analysis.
+* Example case:
+ 
+  1. The **Processor Cache** is the most volatile and changes the most frequently.
+  2. **Random Access Memory (RAM)** is temporary storage in a computer, can quickly change or overwritten, and the information stored in RAM is lost when power is removed from the computer.
+  3. **Swap files** are temporary files on a hard disk that are used as virtual memory.
+  4. The files on a **hard disk or USB drive** are the least volatile of the four options presented since it is used for long-term storage of data and is not lost when the computer loses power.
 #### Chain of custody
 #### Legal hold
 #### Data acquisition:

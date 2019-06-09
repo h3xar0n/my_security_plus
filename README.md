@@ -52,6 +52,8 @@
 * Man-in-the-middle
 * Buffer overflow
 * Injection
+  - Explain `' or '1'='1' --`
+  - Prevented through [stored procedures](#secure-coding-techniques).
 * Cross-site scripting
 * Cross-site request forgery
 * Privilege escalation
@@ -542,6 +544,7 @@
 * Proper input validation
 * Normalization
 * Stored procedures
+  - an effective method of preventing [SQL injection attacks](#application/service-attacks)
 * Code signing
 * Encryption
 * Obfuscation/camouflage

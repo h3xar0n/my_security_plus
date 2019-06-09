@@ -1008,9 +1008,14 @@
 * CA
 * Intermediate CA
 * CRL
+  - Certification revocation list
   - Identifies revoked certificates
+  - Cached: if a public CA is not reachable due to a connection outage or CA outage, the cached CRL can still be used as long as the cache time has not expired.
   - Unrelated to sharing encryption keys
 * OCSP
+  - Online Certificate Status Protocol
+  - Works in real time where the client queries the CA with the serial number of the certificate.
+  - If the CA is unreachable, the certificate cannot be validated.
 * CSR
 * Certificate
 * Public key

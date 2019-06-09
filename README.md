@@ -1095,6 +1095,7 @@
 * Pinning
 * Trust model
 * Key escrow
+  - Used for key storage; has nothing to do with certificates.
 * Certificate chaining
 #### Types of certificates:
 * Wildcard

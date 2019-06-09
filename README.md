@@ -258,7 +258,11 @@
 #### DLP:
 * USB blocking
 * Cloud-based
+  - A cloud-based DLP would best be used if your organization has a large cloud presence.
 * Email
+* A storage DLP is typically installed on a file server or in the data center to monitor the data at rest. 
+* An endpoint DLP is installed on an individual computer to monitor data in use. 
+* A network DLP would best be installed at the perimeter of the network and inspect the data in transit. 
 #### NAC:
 * Dissolvable vs. permanent
 * Host health checks

@@ -553,6 +553,8 @@
 * Continuous integration
 * Baselining
 * Immutable systems
+  - An immutable server is a server that has a configuration that cannot be changed.
+  - Useful in a case such as deploying and supporting a legacy application where the configuration for the application and the OS are very specific and cannot be changed.
 * Infrastructure as code
 #### Version control and change management
 #### Provisioning and deprovisioning

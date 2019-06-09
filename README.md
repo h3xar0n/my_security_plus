@@ -342,6 +342,7 @@
 
 #### Connection methods:
 * Cellular
+  - Benefit: By using cellular data, your users will be able to avoid connecting to WiFi networks for connectivity, mitigating threats such as MitM, evil twins, rogue APs.
 * WiFi
 * SATCOM
 * Bluetooth
@@ -350,6 +351,7 @@
 * Infrared
 * USB
 #### Mobile device management concepts:
+* A mobile device management (MDM) program enables the administrators to remotely push software updates, security policies, and other security features to the device from a centralized server.
 * Application management
 * Content management
 * Remote wipe

@@ -976,6 +976,8 @@
 * EAP-TLS
 * EAP-TTLS
 * IEEE 802.1x
+  - An 802.1x server provides port-based authentication and can authenticate clients. 
+  - In a situation where there is an internal network reserved for employees, clients that cannot authenticate can be redirected to a guest network that has Internet access, but not internal network access.
 * RADIUS Federation
 #### Methods:
 * PSK vs. Enterprise vs. Open

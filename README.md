@@ -79,6 +79,7 @@
 #### Wireless attacks:
 * Replay
 * IV
+  - IV attacks can be associated with the WEP security protocol; WPA uses TKIP, and WPA2 uses AES, not IV.
 * Evil twin
 * Rogue AP
 * Jamming
@@ -733,12 +734,7 @@
 * False rejection rate
 * Crossover error rate
 #### Tokens:
-* Hardware
-* Software
-* HOTP/TOTP
-#### Certificate-based authentication:
-* PIV/CAC/smart card
-* IEEE 802.1x
+* Hard
 #### File system security
 #### Database security
 

@@ -710,6 +710,7 @@
 * Expiration
 * Recovery
 * Disablement
+  - If an employee is terminated, their account should be disabled (rather than deleted) during the exit interview so that user security keys (cryptographic keys) are retained. These keys can encrypt and decrypt files, and if the keys are deleted (i.e. with the user account), it might not be possible to access files that the user encrypted.
 * Lockout
 * Password history
 * Password reuse

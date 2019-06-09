@@ -953,6 +953,7 @@
 * Degaussing
 * Purging
 * Wiping
+  - DoD standard 5220.22-M recommends 7 wipes to completely wipe data.
 #### Data sensitivity labeling and handling:
 * Confidential
 * Private

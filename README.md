@@ -664,6 +664,7 @@
 * HVAC
 * Hot and cold aisles
 * Fire suppression
+  - FM-200 is a fire extinguishing system that is commonly used in data centers and server rooms to protect the servers from fire.
 #### Cable locks
 #### Screen filters
 #### Cameras

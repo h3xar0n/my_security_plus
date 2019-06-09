@@ -384,6 +384,7 @@
 #### Deployment models:
 * BYOD
 * COPE
+  - With company-owned devices, you can still use the device for personal use and save your personal information on this device, therefore, your personal and private data is being exposed to your company. By storing your personal data on a company-owned device, the employee is giving up some of their privacy.
 * CYOD
 * Corp
 

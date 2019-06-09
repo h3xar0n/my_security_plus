@@ -985,8 +985,12 @@
 #### Ephemeral key
 #### Secret algorithm
 #### Data-in-transit
+* Data-in-transit is data that is moving.
+* By comparison, data-over-the-network is not considered digital data.
 #### Data-at-rest
+* Data-at-rest is the data that is currently inactive but stored in digital form in places such as nonvolatile memory.
 #### Data-in-use
+* Data-in-use is data that is active and stored in volatile memory.
 #### Random/pseudo-random number generation
 #### Key stretching
 #### Implementation vs. algorithm selection:

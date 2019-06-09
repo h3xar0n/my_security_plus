@@ -823,10 +823,12 @@
 ### 5.5 Summarize basic concepts of forensics.
 
 #### Order of volatility
+* Should [capture system image](#data-acquisition) before analysis.
 #### Chain of custody
 #### Legal hold
 #### Data acquisition:
 * Capture system image
+  - Do before analyzing a hard drive (and determining the [order of volatility](#order-of-volatility)).
 * Network traffic and logs
 * Capture video
 * Record time offset

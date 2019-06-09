@@ -664,6 +664,7 @@
 #### Kerberos
 * Kerberos is a key distribution center (KDC) and provides keys with certain time limits. 
 * If the network time proctocol (NTP) is not working correctly, Kerberos will be affected. 
+* Kerberos will not reduce the number of passwords that must be remembered.
 #### TACACS+
 #### CHAP
 #### PAP
@@ -729,6 +730,7 @@
 * Location-based policies
 #### Account policy enforcement: 
 * Credential management
+  - A password manager (e.g. 1Password) can reduce the number of passwords that need to be remembered.
 * Group policy
 * Password complexity
 * Expiration

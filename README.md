@@ -95,6 +95,9 @@
 * Dictionary
 * Brute force:
   - Online vs. offline
+* Hybrid
+  - Combining dictionary and brute force
+  - For example, Jason’s password of `rover123` is made up of the dictionary word `rover` and the number `123`. It is likely that the cracker attempted to use a dictionary word (like `rover`) and the attempted variations on it using brute force (such as adding `000`, `001`, `002`, `…122`, `123`) to the end of the password until found `rover123`.
 * Collision
 * Downgrade
 * Replay

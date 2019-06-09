@@ -171,6 +171,11 @@
 
 #### Firewall:
 * ACL
+  - Format:
+    `<Source_IP>, <Destination_IP>, <Port>, <Protocol>, <Condition>`
+  - If a subnet mask is used for either `IP`, it includes a range, e.g., `192.168.0.0/24` includes `192.168.0.5`, `192.168.0.6`, and `192.168.0.7`.
+  - If `Port` is not specified, e.g. `22` for `SSH`, `ANY` can be used to allow traffic to any port.
+  - To easily deny anything that does not have a `Condition` set, use implicit deny (see below).
 * Application-based vs. network-based
   - A WAF can provide load balancing, but stateful- and stateless cannot.
   - A host-based firewall provides protection for a single host.
@@ -378,6 +383,8 @@
 #### Protocols:
 * DNSSEC
 * SSH
+  - Port 22
+  - Operates over TCP
 * S/MIME
 * SRTP
 * LDAPS

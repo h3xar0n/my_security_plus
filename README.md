@@ -626,8 +626,18 @@
   - Could be used to run a legacy application that may have vulnerabilities to prevent it from affecting the host and thus the rest of the network.
   - Containerization is the most efficient of any of the options listed, but it doesn’t allow each VM to have its own OS since all containers share the same host OS.
 #### VM sprawl avoidance
+* Deactivate unused VMs, regularly audit/centrally manage usage.
 #### VM escape protection
 * If one virtual machine is compromised, the negative effects can be compartmentalized and not spread to the other virtual machines on the same server. The keyword here is “can”. Virtual machines on the same server can be compromised if the attacker performs a VM escape, or if the other virtual machines have the same type of vulnerability. Virtual machines can be hacked, just like physical servers. Each virtual machine has its own operating system and therefore must be patched.
+* Privilege escalation to a hypervisor is possible.
+* Keep patches up to date.
+* Limit connectivity between the VM and the host.
+* Remove any unnecessary pieces of virtual hardware from the VM.
+#### VM live migrations
+* If an attacker can intercept a VM moving from one physical server to another, they can implement a MitM attack capturing data between the two.
+* This is why VM data should be encrypted and treated as data-in-transit during migration.
+#### Data remnants
+* When a VM is shut down, it may leave behind remnants of confidential data.
 #### Cloud storage
 #### Cloud deployment models:
 * SaaS

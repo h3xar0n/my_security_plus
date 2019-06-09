@@ -941,9 +941,21 @@
 * Blowfish/Twofish
 #### Cipher modes:
 * CBC
+  - Cipher Block Chaining mode
+  - Encrypts the first block with an IV.
+  - Combines each subsequent block with the previous block using an XOR operation.
+  - Does not provide data authenticity.
 * GCM
+  - Galois/Counter mode
+  - Combines the Counter (CTR) mode with hashing techniques.
+  - The only cipher mode that provides both confidentiality _and_ data authenticity
 * ECB
+  - Electronic Cookbook mode
+  - Easily cracked because it encrypts blocks with the same key; do not use.
 * CTR
+  - Counter mode
+  - Combines an IV with a counter to encrypt blocks.
+  - Does not provide data authenticity.
 * Stream vs. block
 #### Asymmetric algorithms:
 * RSA

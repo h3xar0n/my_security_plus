@@ -21,6 +21,7 @@
 #### Keylogger
 #### Adware
 #### Spyware
+* A common symptom of infection is that your homepage has changed, i.e. spyware has altered your browser settings.
 #### Bots
 #### RAT
 #### Logic bomb

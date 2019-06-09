@@ -701,6 +701,8 @@
 * Rule-based access control
 #### Physical access control:
 * Proximity cards
+  - A "hands-free" solution, since they only need to be within close range to work. 
+  - A person with a proximity card could be carrying heavy equipment and the lock would still open for them.
 * Smart cards
 #### Biometric factors:
 * Fingerprint scanner

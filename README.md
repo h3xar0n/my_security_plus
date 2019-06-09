@@ -900,6 +900,7 @@
 * Full
 #### Geographic considerations:
 * Off-site backups
+  - Encryption of the backup data should be done prior to storing tapes off-site because if something happens to the tape physically, the data would still be okay
 * Distance
 * Location selection
 * Legal implications

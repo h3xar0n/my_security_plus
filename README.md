@@ -596,6 +596,7 @@
 * Community
 #### On-premise vs. hosted vs. cloud
 #### VDI/VDE
+* Using VDEs would give an organization the opportunity to manage patches, configurations and software installations/updates/maintenance in a single location. 
 #### Cloud access security broker
 #### Security as a Service
 

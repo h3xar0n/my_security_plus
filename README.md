@@ -358,8 +358,10 @@
 * Biometrics
 * Context-aware authentication
 * Containerization
+  - Containerization is a great resource to prevent employees’ personal device usage compromising company data since it establishes secure isolated connections to applications and isolates the rest of the phone. 
 * Storage segmentation
 * Full device encryption
+  - Protects confidentiality, but does not segregate data
 #### Enforcement and monitoring for:
 * Third-party app stores
 * Rooting/jailbreaking

@@ -1043,6 +1043,8 @@
   - Works in real time where the client queries the CA with the serial number of the certificate.
   - If the CA is unreachable, the certificate cannot be validated.
 * CSR
+  - Certificate Signing Request
+  - Used to request a certificate for a web server.
 * Certificate
 * Public key
 * Private key

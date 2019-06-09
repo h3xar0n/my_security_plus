@@ -935,6 +935,7 @@
 ### 5.7 Compare and contrast various types of controls.
 
 #### Deterrent
+* e.g. CAPTCHA
 #### Preventive
 #### Detective
 #### Corrective

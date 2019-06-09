@@ -576,6 +576,8 @@
 * Type I
 * Type II
 * Application cells/containers
+  - An application container isolates applications from the host operating system. 
+  - Could be used to run a legacy application that may have vulnerabilities to prevent it from affecting the host and thus the rest of the network.
 #### VM sprawl avoidance
 #### VM escape protection
 #### Cloud storage

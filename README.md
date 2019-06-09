@@ -490,7 +490,8 @@
 * HSM
   - Hardware Security Module
   - A removable device that can generate and store RSA keys used with servers for data encryption.
-* UEFI/BIOS
+* UEFI/
+  - A BIOS password is the most fundamental integrity technique.
 * Secure boot and attestation
 * Supply chain
 * Hardware root of trust

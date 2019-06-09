@@ -1056,7 +1056,9 @@
 
 #### Cryptographic protocols:
 * WPA
+  - WPA is the protocol that should be used to help provide him with the maximum level of security while still being compatible with legacy devices on his network.
 * WPA2
+  - Stronger than WPA, WEP, but wouldn't work with older cards.
 * CCMP
   - Counter Mode Cipher Block Chaining Message Authentication
   - Strong, but uses PSK, i.e. no usernames.

@@ -495,6 +495,7 @@
 * Supply chain
 * Hardware root of trust
 * EMI/EMP
+  - If you use a CAT 5e STP cable for your network connection, you will minimize the risk of EMI and reduce data emanations.
 #### Operating systems:
 * Types:
   - Network

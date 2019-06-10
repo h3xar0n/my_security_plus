@@ -223,6 +223,10 @@
 * ACLs
 * Antispoofing
 #### Switch:
+* Subject to three types of attacks:
+  1. MAC flooding: If flooded, a switch begins to act like a hub, broadcasting data everywhere else in the network.
+  2. MAC spoofing
+  3. Physical tampering
 * Port security
 * Layer 2 vs. Layer 3
 * Loop prevention

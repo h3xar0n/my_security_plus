@@ -802,6 +802,9 @@
 * Hard
 #### File system security
 #### Database security
+* DAMP
+  - Database activity monitoring prevention system 
+  - An active device and prevents unauthorized access. 
 
 ### 4.4 Given a scenario, differentiate common account management practices. 
 

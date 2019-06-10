@@ -1058,6 +1058,7 @@
 #### Obfuscation
 #### Stream vs. block
 * Stream ciphers work similar to one-time pads. They provide the same protection as OTP. 
+  - The only truly unbreakable encryption is one that uses a one-time use pad. This ensures that every message is encrypted with a different shared key that only the two owners of the one-time use pad would know. This technique ensures that there is no pattern in the key for an attacker to guess or find. Even if one of the messages could be broken, all of the other messages would remain secure since they use different keys to encrypt them. Unfortunately, one-time use pads require two identical copies of the pad be produced and distributed securely before use. 
 * Block ciphers generally have a fixed-length block (8-bit, 16-bit, 32-bit, 64-bit, etc).
 #### Key strength
 #### Session keys

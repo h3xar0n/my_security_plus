@@ -263,6 +263,8 @@
 * Signal strength
 * Band selection/width
 * Antenna types and placement
+  - The placement of WAPs is critical to provide the best coverage for the entire company without adding much overlap and without providing much access outside of the company.
+  - When placing WAPs for optimal coverage, one needs to consider signal strength as well.
 * Fat vs. thin
 * Controller-based vs. standalone
 #### SIEM:

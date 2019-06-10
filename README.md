@@ -100,6 +100,7 @@
 * Birthday
 * Known plain text/cipher text
 * Rainbow tables
+  - Rainbow tables are typically mitigated by longer passwords. Rainbow tables can easily crack passwords that are shorter than 14 characters.
 * Dictionary
 * Brute force:
   - Online vs. offline

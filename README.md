@@ -197,6 +197,10 @@
   - A stateless firewall filters traffic using an ACL.
 * NAT filtering
   - Filters traffic based on the type of port being used, e.g. UDP, TCP
+* Application-layer gateway
+  - Layer 7 firewall
+  - Conducts an in-depth inspection based upon the application being used.
+  - Resource-intensive, but powerful.
 * Implicit deny
   - Placed at the end of an ACL to on a _router_ to deny traffic that hasn't been explicitly allowed.
   - Doesn't affect physical ports differently, so [disabling unused ports](#operating-systems) is still important.

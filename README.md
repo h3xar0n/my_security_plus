@@ -21,7 +21,9 @@
 * Scanners may detect a file containing a rootkit _before_ it's installed...
 * Once installed, a rootkit is very difficult to detect.
 * Removal is difficult and the best course of action is to reimage the machine from a known good baseline.
+* Rootkits have kernel access and can modify system files and system access.
 * Rootkits use hooking techniques to intercept system-level functional calls.
+  - Tools that can inspect RAM can discover these hidden hooked processes.
 #### Keylogger
 #### Adware
 #### Spyware

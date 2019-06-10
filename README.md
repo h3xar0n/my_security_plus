@@ -193,6 +193,7 @@
   - A host-based firewall provides protection for a single host.
 * Stateful vs. stateless
   - A stateful firewall filters traffic based on the state of a packet within a session.
+    * Can almost entirely eliminate IP spoofing since every packet will be inspected and compared to what it expected.
   - A stateless firewall filters traffic using an ACL.
 * Implicit deny
   - Placed at the end of an ACL to on a _router_ to deny traffic that hasn't been explicitly allowed.

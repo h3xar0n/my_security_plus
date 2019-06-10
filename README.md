@@ -310,6 +310,7 @@
 #### Honeypot
 #### Backup utilities
 #### Banner grabbing
+* Banner grabbing is conducted by actively connecting to the server using telnet or netcat and collecting the response from the web server. This banner usually contains the operating system being run by the server as well as the version number of the service (SSH) being run. This is the fastest and easiest way to determine the version of SSH being run on this web server. 
 #### Passive vs. active
 #### Command line tools:
 * `ping`

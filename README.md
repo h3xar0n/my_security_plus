@@ -367,6 +367,7 @@
 * Windows Firewall is only available on Windows servers and desktops. 
 * PF and IPFW are available on FreeBSD and OS X.
 #### Application whitelisting
+* Application whitelisting will only allow a program to execute if it is specifically listed in the approved exception list. All other programs are blocked from running. This makes it the BEST mitigation again a zero-day virus.
 #### Removable media control
 #### Advanced malware tools
 #### Patch management tools

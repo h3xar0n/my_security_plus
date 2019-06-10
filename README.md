@@ -62,6 +62,7 @@
 * Cross-site scripting
 * Cross-site request forgery
 * Privilege escalation
+  - A domain controller or directory service (such as Active Directory in Windows and LDAP in Linux) is often targeted as part of the privilege escalation or lateral movement phases of an attack. These servers contain all the user accounts, computer accounts, and groups for a particular network. The creation and use of a Golden Ticket are often used as a form of privilege escalation inside a Windows network and exploit a vulnerability in the Kerberos ticketing system used by the Active Directory domain controller.
 * ARP poisoning
 * Amplification
 * DNS poisoning

@@ -283,6 +283,7 @@
 * Host health checks
   - Network access control (NAC) solutions inspect clients for health after they connect to a network.
 * Agent vs. agentless
+* By utilizing NAC, each machine connected to an open wireless network could be checked for compliance and determine if it is a 'known' machine that should be given access to the entire network, or if it is an unknown machine that should be placed into an internet-only network (which would have no access to, say, the HVAC control system). 
 #### Mail gateway:
 * Spam filter
   - Use whitelists and blacklists
@@ -500,6 +501,7 @@
 * Physical
 * Logical (VLAN)
   - A VLAN provides separation for traffic and can be configured to separate VoIP and data traffic.
+  - While a VLAN is useful to segment out network traffic to various parts of the network, if data is still being routed to/from an HVAC VLAN then this won't stop someone from the open wireless network from being able to attempt to login to the HVAC controls. 
 * Virtualization
 * Air gaps
 #### Tunneling/VPN:

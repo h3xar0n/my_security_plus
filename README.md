@@ -629,6 +629,15 @@
 * Normalization
 * Stored procedures
   - an effective method of preventing [SQL injection attacks](#applicationservice-attacks)
+  - a group of SQL statements that execute as a whole.
+  - performs data validation, takes user input as a parameter and then handles it differently to prevent direct exposure.
+  - Example: turning the input into a string:
+      * Attack attempting to list all customers: 
+      > `Aron Eidelman'; SELECT * From Customers;--`
+      * Attacker assumes this query will result:
+      > `SELECT * From READMEs Where Author = 'Aron Eidelman'; SELECT * From Customers;`
+      * But stored procedure processes their input safely: 
+      > `SELECT * From READMEs Where Author = "Aron Eidelman'; SELECT * From Customers;--"`
 * Code signing
 * Encryption
 * Obfuscation/camouflage

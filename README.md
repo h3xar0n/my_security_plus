@@ -1014,8 +1014,11 @@
 * Degaussing
 * Purging
   - Purging removes data from hard drives that cannot be rebuilt, but keeps the hard drive intact. 
+  - Purging involves the removal of sensitive data from a hard drive using the devices own electronics or an outside source (like a degausser). A purged device is generally not reusable. 
 * Wiping
   - DoD standard 5220.22-M recommends 7 wipes to completely wipe data.
+  - Data wiping may be performed with a 1x, 7x, or 35x overwriting, with a higher number of times being more secure. 
+  - This allows the hard drive to remain functional and allows for hardware reuse. 
 * Formatting
   - Formatting leaves traces of data that can be rebuilt.
 #### Data sensitivity labeling and handling:

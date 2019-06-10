@@ -1058,6 +1058,7 @@
 #### Obfuscation
 #### Stream vs. block
 * Stream ciphers work similar to one-time pads. They provide the same protection as OTP. 
+* Block ciphers generally have a fixed-length block (8-bit, 16-bit, 32-bit, 64-bit, etc).
 #### Key strength
 #### Session keys
 #### Ephemeral key

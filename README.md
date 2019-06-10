@@ -395,6 +395,7 @@
 * Bluetooth
 * NFC
 * ANT
+  - A proprietary technology that works with low-power mode devices.
 * Infrared
 * USB
 #### Mobile device management concepts:

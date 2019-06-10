@@ -1123,6 +1123,7 @@
 * Stream vs. block
 #### Asymmetric algorithms:
 * RSA
+  - Sometimes called public key cryptography, uses a public/private key to encrypt/decrypt data during transmissions. 
 * DSA
 * Diffie-Hellman:
   - Groups

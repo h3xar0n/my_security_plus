@@ -54,6 +54,8 @@
 #### Application/service attacks:
 * DoS
 * DDoS
+* Smurf attack
+  -  A single ping with a spoofed source address is sent to the broadcast address of a network. This causes every device within the network to receive the single ping which appears to come from the device with the spoofed source address. Each network device then responds to the spoofed address, causing the victim (whos address was spoofed) to be overwhelmed with the responses to the initial ping.
 * Man-in-the-middle
 * Buffer overflow
 * Injection

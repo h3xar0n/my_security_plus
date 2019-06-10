@@ -660,6 +660,7 @@
   - Platform as a Service provides consumers with the infrastructure for hosted applications.
 * IaaS
   - Infrastructure as a Service is a _network_ infrastructure
+  - Provides an organization with the network, servers, load balancing, routing, and VM hosting required for a service. The organization can then choose their own operating system (usually Windows or Linux), install backend applications (like Apache or MySQL), and any custom-built applications they would like to install and utilize. With IaaS, you get the most control over the “as a service”, but you also have the most responsibility for its inner workings and design.
 * CaaS
   - Cloud as a Service is cloud storage.
 * Private

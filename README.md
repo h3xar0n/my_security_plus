@@ -1189,6 +1189,7 @@
   - Identifies revoked certificates
   - Cached: if a public CA is not reachable due to a connection outage or CA outage, the cached CRL can still be used as long as the cache time has not expired.
   - Allows verifying the validity of the certificate while ensuring that bandwidth isn’t being consumed
+  - Revoked certificates are no longer valid and when this happens, a new key pair and certificate will need to be generated. The certificate cannot be renewed.
 * OCSP
   - Online Certificate Status Protocol
   - Works in real time where the client queries the CA with the serial number of the certificate.

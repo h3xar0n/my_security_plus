@@ -195,6 +195,8 @@
   - A stateful firewall filters traffic based on the state of a packet within a session.
     * Can almost entirely eliminate IP spoofing since every packet will be inspected and compared to what it expected.
   - A stateless firewall filters traffic using an ACL.
+* NAT filtering
+  - Filters traffic based on the type of port being used, e.g. UDP, TCP
 * Implicit deny
   - Placed at the end of an ACL to on a _router_ to deny traffic that hasn't been explicitly allowed.
   - Doesn't affect physical ports differently, so [disabling unused ports](#operating-systems) is still important.

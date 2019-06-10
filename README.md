@@ -482,6 +482,7 @@
 * Control diversity:
   - Administrative
   - Technical
+    * Layering various network appliances and configurations to create a more secure and defensible architecture. 
 * User training
 
 ### 3.2 Given a scenario, implement secure network architecture concepts.

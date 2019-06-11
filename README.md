@@ -760,10 +760,14 @@
 #### Identification, authentication, authorization and accounting (AAA)
 #### Multifactor authentication:
 * Something you are
+  - Type III
 * Something you have
+  - Type II
 * Something you know
+  - Type I
 * Somewhere you are
 * Something you do
+* At least two different Types = "Strong"
 #### Federation
 #### Single sign-on
 #### Transitive trust

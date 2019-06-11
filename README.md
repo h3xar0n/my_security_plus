@@ -1098,6 +1098,8 @@
 * Data-in-use is data that is active and stored in volatile memory.
 #### Random/pseudo-random number generation
 #### Key stretching
+* In cryptography, key stretching techniques are used to make a possibly weak key, typically a password or passphrase, more secure against a brute-force attack by increasing the resources it takes to test each possible key. 
+* One example would be salting and hashing a password, and doing so repeatedly.
 #### Implementation vs. algorithm selection:
 * Crypto service provider
 * Crypto modules

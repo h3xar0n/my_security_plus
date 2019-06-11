@@ -213,7 +213,7 @@
   - Operates at the session layer.
   - Only inspects the traffic during the establishment of the session.
 * Implicit deny
-  - Placed at the end of an ACL to on a _router_ to deny traffic that hasn't been explicitly allowed.
+  - Placed at the end of an ACL on a _router_ to deny traffic that hasn't been explicitly allowed.
   - Doesn't affect physical ports differently, so [disabling unused ports](#operating-systems) is still important.
 #### VPN concentrator:
 * Remote access vs. site-to-site

@@ -333,7 +333,14 @@
 * `tracert` / `traceroute`
 * `nslookup` / `dig`
 * `arp`
-* `ipconfig` / `ip` / `ifconfig`
+* `ipconfig`
+  - Windows
+  - View network interfaces
+* `ip` / `ifconfig`
+  - Linux
+  - View network interfaces
+  - Also can manipulate the settings on the network interface
+  - Can be used to enable promiscuous mode on NIC
 * `tcpdump`
 * `nmap`
 * `netcat`

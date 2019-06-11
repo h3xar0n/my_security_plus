@@ -826,6 +826,7 @@
 * DAC
 * ABAC
 * Role-based access control
+  - Uses a matrix, i.e. a planning document that matches the roles with the required privileges.
 * Rule-based access control
 #### Physical access control:
 * Proximity cards

@@ -1063,6 +1063,7 @@
 * Proprietary
 * PII
 * PHI
+  - Protected health information
 #### Data roles:
 * Owner
 * Steward/custodian

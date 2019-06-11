@@ -333,6 +333,7 @@
   - View statistics for TCP/IP protocols and view all active network connections.
   - Useful if you suspect malware is causing a connection to a remote computer, e.g. with a RAT.
 * `tracert` / `traceroute`
+  - Useful to verify that a path has not been changed.
 * `nslookup` / `dig`
 * `arp`
 * `ipconfig`

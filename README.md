@@ -823,6 +823,7 @@
 
 #### Access control models:
 * MAC
+  - Uses sensitivity labels based on a "need to know", e.g. "Secret", "Balkans", "Field Agents"
 * DAC
 * ABAC
 * Role-based access control

@@ -802,7 +802,7 @@
 * LDAP is considered a directory or a phonebook of your network and if you make LDAP unavailable then the footprint of your network is not as easily obtained. 
 *  Uses a client-server model for authentication, i.e. it relies on mutual authentication.
 #### Kerberos
-* Kerberos is a key distribution center (KDC) and provides keys with certain time limits. 
+* Kerberos is a key distribution center (KDC) and provides symmetric keys with certain time limits. 
 * If the network time proctocol (NTP) is not working correctly, Kerberos will be affected. 
 * Kerberos will not reduce the number of passwords that must be remembered.
 #### TACACS+

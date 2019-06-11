@@ -528,6 +528,7 @@
 * Filters
 * Proxies
 * Firewalls
+  - a Bastion is a border firewall
 * VPN concentrators
 * SSL accelerators
 * Load balancers
@@ -535,6 +536,8 @@
 * DDoS mitigator
 * Aggregation switches
 * Taps and port mirror
+* SPI
+  - Stateful Packet Inspection (SPI) helps protect against SYN flood attacks.
 #### SDN
 
 ### 3.3 Given a scenario, implement secure systems design.

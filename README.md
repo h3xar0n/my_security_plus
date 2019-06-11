@@ -471,7 +471,9 @@
 * SRTP
 * LDAPS
 * FTPS
+  - Uses TLS to encrypt traffic
 * SFTP
+  - Uses SSH to encrypt traffic
 * SNMPv3
   - Earlier versions of SNMP were not encrypted.
 * SSL/TLS

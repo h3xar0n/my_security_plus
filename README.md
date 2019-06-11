@@ -723,6 +723,7 @@
 * Rollback to known configuration
 * Live boot media
 #### Elasticity
+- Elasticity is the process of deprovisioning resources as needed in order to make room for other resources.
 #### Scalability
 #### Distributive allocation
 #### Redundancy

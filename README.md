@@ -330,6 +330,8 @@
 #### Command line tools:
 * `ping`
 * `netstat`
+  - View statistics for TCP/IP protocols and view all active network connections.
+  - Useful if you suspect malware is causing a connection to a remote computer, e.g. with a RAT.
 * `tracert` / `traceroute`
 * `nslookup` / `dig`
 * `arp`
@@ -338,6 +340,7 @@
   - View network interfaces
 * `ip` / `ifconfig`
   - Linux
+  - `ifconfig` was deprecated in 2009
   - View network interfaces
   - Also can manipulate the settings on the network interface
   - Can be used to enable promiscuous mode on NIC

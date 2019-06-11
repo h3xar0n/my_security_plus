@@ -173,8 +173,10 @@
 #### Weak cipher suites and implementations
 #### Memory/buffer vulnerability:
 * Memory leak
+  - If an attacker can get a web application to create a memory leak, then eventually it will consume all memory and the web server itself will freeze up, causing a Denial of Service condition. A memory leak is a type of resource leak that occurs when a computer program incorrectly manages memory allocations in such a way that memory which is no longer needed is not released. A memory leak may also happen when an object is stored in memory but cannot be accessed by the running code.
 * Integer overflow
 * Buffer overflow
+  - A buffer overflow is a condition where you purposely try to put more data into a memory buffer than it can hold to cause it to "overflow" into the next buffer to execute some malicious code.
 * Pointer dereference
 * DLL injection
 #### System sprawl/undocumented assets

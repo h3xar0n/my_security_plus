@@ -812,6 +812,7 @@
 #### RADIUS
 * Functions without a dependency of time synchronization, so would be unaffected by NTP breaking.
 #### SAML
+* Provides SSO for web-based apps.
 #### OpenID Connect
 #### OAUTH
 #### Shibboleth

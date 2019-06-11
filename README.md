@@ -873,6 +873,11 @@
 * Credential management
   - A password manager (e.g. 1Password) can reduce the number of passwords that need to be remembered.
 * Group policy
+  - Implemented on a domain controller
+  - Admins use it to:
+    * Create password policies
+    * Implement security settings
+    * Configure host-based firewalls
 * Password complexity
 * Expiration
 * Recovery

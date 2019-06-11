@@ -519,6 +519,8 @@
   - A VLAN provides separation for traffic and can be configured to separate VoIP and data traffic.
   - While a VLAN is useful to segment out network traffic to various parts of the network, if data is still being routed to/from an HVAC VLAN then this won't stop someone from the open wireless network from being able to attempt to login to the HVAC controls. 
 * Virtualization
+  - Provides increased availability with lower operating costs.
+  - Provides a high level of flexibility when testing security controls, updates, and patches because they can easily be reverted using snapshots.
 * Air gaps
 #### Tunneling/VPN:
 * Site-to-site
@@ -730,6 +732,7 @@
 #### Fault tolerance
 #### High availability
 #### RAID
+* Can increase availability
 
 ### 3.9 Explain the importance of physical security controls.
 

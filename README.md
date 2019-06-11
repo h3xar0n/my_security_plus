@@ -1064,6 +1064,7 @@
 #### Symmetric algorithms
 #### Modes of operation
 #### Asymmetric algorithms
+* Provides easy key exchange and key management.
 #### Hashing
 #### Salt, IV, nonce
 #### Elliptic curve

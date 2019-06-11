@@ -1199,6 +1199,7 @@
     2. establishment of a tunnel 
     3. authentication. 
 * EAP-TLS
+  - EAP-TLS can be used for remote access and supports the use of smart cards. 
 * EAP-TTLS
   - Encrypts user credentials when users enter their usernames and passwords.
   - Implemented in Enterprise mode and uses an 802.1x server.

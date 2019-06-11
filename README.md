@@ -283,6 +283,7 @@
 * Time synchronization
 * Event deduplication
 * Logs/WORM
+  - WORM (write-once, read many) works with high-capacity storage where once the data is written, it cannot be edited. This provides secure storage because backups cannot be tampered with. 
 #### DLP:
 * USB blocking
 * Cloud-based

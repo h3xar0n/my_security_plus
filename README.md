@@ -461,6 +461,7 @@
 * FTPS
 * SFTP
 * SNMPv3
+  - Earlier versions of SNMP were not encrypted.
 * SSL/TLS
 * HTTPS
 * Secure POP/IMAP

@@ -179,6 +179,8 @@
   - A buffer overflow is a condition where you purposely try to put more data into a memory buffer than it can hold to cause it to "overflow" into the next buffer to execute some malicious code.
 * Pointer dereference
 * DLL injection
+  - DLL injection is malware that attempts to inject code into the process library.
+  - e.g. a program that is able to execute code within the address space of another process by using a target process to load a specific library. 
 #### System sprawl/undocumented assets
 #### Architecture/design weaknesses
 #### New threats/zero day

@@ -828,6 +828,8 @@
 * Role-based access control
   - Uses a matrix, i.e. a planning document that matches the roles with the required privileges.
 * Rule-based access control
+  - Based on a set of approved instructions such as an ACL.
+  - Some rule-based systems use rules that trigger in response to events, such as modifying ACLs after detecting an attack or granting additional permissions to a user in certain situations.
 #### Physical access control:
 * Proximity cards
   - A "hands-free" solution, since they only need to be within close range to work. 

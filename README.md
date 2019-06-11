@@ -826,6 +826,9 @@
   - Uses sensitivity labels based on a "need to know", e.g. "Secret", "Balkans", "Field Agents"
 * DAC
 * ABAC
+  - Based on Subject (user) and Object (resource) attributes
+  - Can enforce MAC or DAC
+  - Commonly used in SDNs
 * Role-based access control
   - Uses a matrix, i.e. a planning document that matches the roles with the required privileges.
 * Rule-based access control
